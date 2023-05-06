@@ -94,7 +94,7 @@ SELECT DISTINCT ?s ?p ?o WHERE { ?s ?p ?o }
 
 Access the query results by sending a GET request to the demo deployment URL with the `query` parameter:
 
-[https://serverless-sparql.deno.dev/?query=SELECT%20DISTINCT%20?s%20?p%20?o%20WHERE%20%7B%20?s%20?p%20?o%20%7D](SELECT%20DISTINCT%20?s%20?p%20?o%20WHERE%20%7B%20?s%20?p%20?o%20%7D)
+[https://serverless-sparql.deno.dev/?query=SELECT%20DISTINCT%20?s%20?p%20?o%20WHERE%20%7B%20?s%20?p%20?o%20%7D](https://serverless-sparql.deno.dev/?query=SELECT%20DISTINCT%20?s%20?p%20?o%20WHERE%20%7B%20?s%20?p%20?o%20%7D)
 
 Alternatively, you can use a tool like `curl` to send a GET request to the demo deployment:
 
